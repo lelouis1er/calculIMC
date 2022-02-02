@@ -7,6 +7,8 @@ import ImcForm from '../components/imc_form'
 
 export default function Form() {
 
+    
+
     return (
         <Layout home={false}>
 
@@ -20,15 +22,7 @@ export default function Form() {
             </header>
             <div className={HomeStyles.card}>
 
-                <h3>
-                    Formulaire de calcul de l'imc
-                </h3>
-
-                <hr />
-
-
                 <ImcForm />
-
 
             </div>
 

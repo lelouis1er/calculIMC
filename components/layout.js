@@ -30,7 +30,6 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-        
       </header>
       <main>{children}</main>
       {!home && (
@@ -41,9 +40,7 @@ export default function Layout({ children, home }) {
         </div>
       )}
 
-        <>
         <br/>
-        </>
 
       <footer className={HomeStyles.footer}>
         <a

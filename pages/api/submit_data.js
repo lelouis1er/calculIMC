@@ -34,8 +34,6 @@ export default function handler (req, res) {
             resultat: result
         }
 
-        console.log("le client: nom: " + client['nom'] + " ; poids: " + client.poids + " ; taille: " + client.taille)
-
         res.status(200).json(newCalc)
     }
 
