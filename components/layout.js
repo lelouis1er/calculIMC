@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">
+          <Link href="/form_history">
             <a>← Retour à l'historique</a>
           </Link>
         </div>

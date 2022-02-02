@@ -2,8 +2,11 @@ import Layout from '../components/layout'
 import HomeStyles from '../styles/Home.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Head from 'next/head'
+import { useState } from 'react'
+import ImcForm from '../components/imc_form'
 
 export default function Form() {
+
     return (
         <Layout home={false}>
 
@@ -24,11 +27,7 @@ export default function Form() {
                 <hr />
 
 
-                <form>
-
-                    
-
-                </form>
+                <ImcForm />
 
 
             </div>
